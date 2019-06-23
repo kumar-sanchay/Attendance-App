@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Classroom.ShowAttentance"
+    android:id="@+id/showAtt">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/showAtttRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+    <RelativeLayout
+        android:id="@+id/backup_show_att"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#616161"
+        android:alpha="0.8"
+        android:visibility="gone">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/backuprel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="215dp"
+            android:text="Backuping your data..."
+            android:textColor="#ffffff"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+</RelativeLayout>

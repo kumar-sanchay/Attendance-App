@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="#fcfcfc">
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:text="Changing Your roll no will be affected in the record.Your current roll no is given below."/>
+    <EditText
+        android:id="@+id/changeRoll"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/trans_white"
+        android:hint="Roll No"
+        android:layout_marginTop="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="1dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+    <com.dd.CircularProgressButton
+        android:id="@+id/changeRollButton"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        />
+</LinearLayout>

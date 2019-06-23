@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Classroom.Edit_Classroom"
+    android:background="#fcfcfc">
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Total Students*"
+           android:padding="4dp"/>
+        <EditText
+            android:id="@+id/edit_total_stu"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trans_white"
+            android:inputType="number"
+            android:hint="Total Students"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:maxLines="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Students Roll From*"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/edit_from_stu"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trans_white"
+            android:inputType="number"
+            android:hint="Students From"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:maxLines="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Students Roll To*"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/edit_to_stu"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trans_white"
+            android:inputType="number"
+            android:hint="Students To"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:maxLines="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initial Code"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/edit_codes"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trans_white"
+            android:hint="Initial Code"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/textCreateClassroom"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="For example :for roll 'FE515' ,'FE5' is the intial code of the class. If none leave blank."
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+        <com.dd.CircularProgressButton
+            android:id="@+id/edit_class"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

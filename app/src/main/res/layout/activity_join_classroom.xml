@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Classroom.JoinClassroom"
+    android:background="#fcfcfc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/joinClassUsername"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:background="@drawable/trans_white"
+                android:hint="Teacher's Username"
+                android:paddingStart="5dp"
+                android:paddingEnd="3dp"
+                android:textColorHint="#616161"
+                android:maxLines="1"
+                android:layout_gravity="center_horizontal"
+                />
+            <EditText
+                android:id="@+id/joinClassName"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:background="@drawable/trans_white"
+                android:layout_gravity="center_horizontal"
+                android:hint="Class Name"
+                android:paddingStart="5dp"
+                android:paddingEnd="3dp"
+                android:maxLines="1"
+                android:textColorHint="#616161"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/textCreateClassroom"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Roll no with initial if any. For example FE5 is initial foe roll no FE515."
+                android:textAlignment="center"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/joinRollNo"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:background="@drawable/trans_white"
+                android:textColorHint="#616161"
+                android:layout_gravity="center_horizontal"
+                android:hint="Roll No"
+                android:paddingStart="5dp"
+                android:paddingEnd="3dp"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"/>
+
+            <com.dd.CircularProgressButton
+                android:id="@+id/join_classsroom_proceed"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="17dp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

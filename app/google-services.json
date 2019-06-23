@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "907007584709",
+    "firebase_url": "https://turnout-d651e.firebaseio.com",
+    "project_id": "turnout-d651e",
+    "storage_bucket": "turnout-d651e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907007584709:android:d3749e13c50b4f94",
+        "android_client_info": {
+          "package_name": "turnoutcom.d_sanchay.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907007584709-f7ascfm2uctrtlagsrhvt428r1unqc03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtPu13rQoFBBYUtxhTAUsr9kD6piIWeNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

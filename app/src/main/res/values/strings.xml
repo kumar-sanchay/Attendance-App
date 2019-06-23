@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="get_in">Get In</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_</string>
+    <string name="login">Your email and password are only used for login purpose.No personal details are shared with any kind of third parties.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Spinner">
+        <item>All Students</item>
+        <item>Present Students</item>
+        <item>Absent Students</item>
+    </string-array>
+</resources>
